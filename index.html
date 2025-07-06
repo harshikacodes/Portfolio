@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: monospace;
+        }
+
+        /* nav */
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(255, 233, 205);
+            border-radius: 20px;
+            height: 45px;
+            align-items: center; /* y-asix alignment*/
+        }
+        nav > ul > li {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav > div{
+            margin-left: 35px;
+        }
+
+        nav > ul{
+            margin-right: 35px;
+        }
+
+        .name{
+            font-weight: bold;
+        }
+        .navigation-bar{
+            display: flex;
+        }
+
+        .navigation-bar > li{
+            margin: 5px;
+        }
+
+        /* main -> card*/
+        .card{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 200px;
+            height: 280px;
+            background-color: rgb(255, 233, 205);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card:hover{
+            box-shadow: 0 8px 16px 0 rgba(0, 0,0, 0.2);
+        }
+
+        .card-container{
+            padding: 2px 16px;
+        }
+        img{
+            margin-top: 20px;
+            border-radius: 50%;
+            width: 100px;
+        }
+        .icons{
+            margin-bottom: 10px;
+        }
+
+        /* main */
+        main{
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .section2{
+            max-width: 200px;
+            max-height: 300px;
+            margin: 20px;
+        }
+
+        .resume-btn{
+            padding: 5px;
+            background-color: rgba(44, 44, 244, 0.927);
+            border-radius: 20px;
+            color: white;
+            border: none;
+            width: 80px;
+            font-size: 17px;
+        }
+        .projects-btn{
+            font-size: 15px;
+            width: 80px;
+            padding: 5px;
+            border-radius: 20px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <span class="name">Harshika Malhotra</span>
+            <span>/1st-year CS student</span>
+        </div>
+        <ul class="navigation-bar">
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="card">
+            <img src="./images/my-img.jpeg" alt="">
+            <div class="card-container">
+                <h4><b>Harshika Malhotra</b></h4>
+                <p>1st-year CS student</p>
+            </div>
+            <div class="icons">
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-instagram"></i>
+            </div>
+        </div>
+        
+        <div class="section2">
+            <div class="greet">
+                <h1>Hello</h1>
+                <p><b>Lorem ipsum dolor sit amet consectetur.</b></p>
+            </div>
+
+            <div class="button">
+                <button class="resume-btn">Resume</button>
+                <button class="projects-btn">Projects</button>
+            </div>
+
+            <div class="paragraph">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem quae sed, tenetur perferendis asperiores laboriosam repellendus accusantium quas nulla exercitationem!</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
