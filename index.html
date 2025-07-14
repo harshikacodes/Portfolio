@@ -14,9 +14,9 @@
         nav{
             display: flex;
             justify-content: space-between;
-            background-color: rgb(255, 233, 205);
+            background-color: rgb(244,236,230);
             border-radius: 20px;
-            height: 45px;
+            height: 55px;
             align-items: center; /* y-asix alignment*/
         }
         nav > ul > li {
@@ -48,9 +48,9 @@
         .card{
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             transition: 0.3s;
-            width: 200px;
-            height: 280px;
-            background-color: rgb(255, 233, 205);
+            width: 387px;
+            height: 522px;
+            background-color: rgb(244,236,230);
             border-radius: 8px;
             display: flex;
             flex-direction: column;
@@ -63,11 +63,12 @@
 
         .card-container{
             padding: 2px 16px;
+            margin-top: 20px;
         }
         img{
-            margin-top: 20px;
+            margin-top: 50px;
             border-radius: 50%;
-            width: 100px;
+            width: 214px;
         }
         .icons{
             margin-bottom: 10px;
@@ -78,12 +79,25 @@
             padding: 30px;
             display: flex;
             justify-content: center;
+            align-items: center;
         }
 
         .section2{
-            max-width: 200px;
+            max-width: 400px;
             max-height: 300px;
             margin: 20px;
+            /* display: flex;
+            flex-direction: column;
+            justify-items: center; */
+            
+        }
+
+        .greet{
+            text-align: center;
+        }
+
+        .button{
+            text-align: center;
         }
 
         .resume-btn{
@@ -102,6 +116,10 @@
             border-radius: 20px;
             background-color: white;
         }
+
+        .paragraph{
+            font-size: 16px;
+        }
     </style>
 </head>
 <body>
@@ -111,7 +129,7 @@
             <span>/1st-year CS student</span>
         </div>
         <ul class="navigation-bar">
-            <li><a href="#">About Me</a></li>
+            <li><a href="./aboutMe.html">About Me</a></li>
             <li><a href="#">Resume</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Contact</a></li>
@@ -134,8 +152,11 @@
         
         <div class="section2">
             <div class="greet">
-                <h1>Hello</h1>
-                <p><b>Lorem ipsum dolor sit amet consectetur.</b></p>
+                <h1>Hello👋</h1>
+            </div>
+
+            <div class="paragraph">
+                <p>I'm Harshika Malhotra — a CS student exploring the world of AI, web dev, and problem-solving. I'm part of the IOI CS+AI and IITM BS programs and love learning by building!</p>
             </div>
 
             <div class="button">
@@ -143,9 +164,7 @@
                 <button class="projects-btn">Projects</button>
             </div>
 
-            <div class="paragraph">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem quae sed, tenetur perferendis asperiores laboriosam repellendus accusantium quas nulla exercitationem!</p>
-            </div>
+            
         </div>
     </main>
 </body>
