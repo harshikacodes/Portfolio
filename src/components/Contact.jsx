@@ -13,7 +13,7 @@ export default function Contact() {
       >
         <h2 className="title mb-4">Get in Touch</h2>
 
-        <p className="text-gray-600 mb-8">
+        <p className="text-secondary mb-8">
           I’m always open to learning opportunities, collaboration, and meaningful conversations.
         </p>
 

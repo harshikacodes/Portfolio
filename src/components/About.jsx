@@ -12,7 +12,7 @@ export default function About() {
       >
         <h2 className="title mb-6">About Me</h2>
 
-        <p className="text-gray-700 leading-relaxed text-lg">
+        <p className="text-secondary leading-relaxed text-lg">
           I’m a learner passionate about building real projects and improving my
           problem-solving skills.
           <br /><br />

@@ -43,16 +43,16 @@ export default function Experience() {
               <h3 className="text-lg font-semibold">
                 {item.role}
               </h3>
-              <span className="text-sm text-gray-500">
+              <span className="text-sm text-secondary">
                 {item.time}
               </span>
             </div>
 
-            <p className="text-sm text-gray-600 mb-2">
+            <p className="text-sm text-secondary mb-2">
               {item.place}
             </p>
 
-            <p className="text-gray-700 text-sm leading-relaxed">
+            <p className="text-primary text-sm leading-relaxed">
               {item.description}
             </p>
           </motion.div>

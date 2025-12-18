@@ -42,7 +42,7 @@ export default function Projects() {
                 {project.title}
               </h3>
 
-              <p className="text-gray-700 text-sm leading-relaxed">
+              <p className="text-secondary text-sm leading-relaxed">
                 {project.description}
               </p>
             </div>
