@@ -15,27 +15,6 @@ export default function Navbar() {
     else setHidden(false);
   });
 
-  // load theme
-  useEffect(() => {
-    const saved = localStorage.getItem("theme");
-    if (saved === "dark") {
-      document.documentElement.classList.add("dark");
-      setDark(true);
-    }
-  }, []);
-
-  const toggleTheme = () => {
-    const root = document.documentElement;
-    if (dark) {
-      root.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    } else {
-      root.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    }
-    setDark(!dark);
-  };
-
   const links = ["About", "Skills", "Projects", "Contact"];
 
   return (
@@ -60,19 +39,10 @@ export default function Navbar() {
             </a>
           ))}
 
-          <button
-            onClick={toggleTheme}
-            className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-black/5 dark:hover:bg-white/10 transition"
-          >
-            {dark ? <FaSun /> : <FaMoon />}
-          </button>
         </div>
 
         {/* Mobile Icons */}
         <div className="md:hidden flex items-center gap-4">
-          <button onClick={toggleTheme}>
-            {dark ? <FaSun /> : <FaMoon />}
-          </button>
 
           <button onClick={() => setMenuOpen(true)}>
             <FaBars size={20} />
