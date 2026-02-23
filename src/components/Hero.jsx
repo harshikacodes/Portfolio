@@ -21,7 +21,7 @@ export default function Hero() {
         transition={{ delay: 0.3, duration: 0.8 }}
         className="mt-4 text-lg text-gray-600 max-w-xl"
       >
-        Learning to Build — Java • DSA • C • Python
+        I build clean, responsive websites for individuals<br /> and small businesses.<br />Focused on clarity, performance, and real-world usability.
       </motion.p>
 
       {/* Call-to-action buttons */}

@@ -8,22 +8,18 @@ import {
   SiReact,
   SiGit,
   SiVisualstudiocode,
+  SiNodedotjs,
 } from "react-icons/si";
 
 const skills = [
+  { name: "React", icon: <SiReact />, color: "#61DAFB" },
+  { name: "JavaScript", icon: <SiJavascript />, color: "#F7DF1E" },
+  { name: "NodeJs", icon: <SiNodedotjs/>, color: "green"},
   { name: "Java", icon: <FaJava />, color: "#007396" },
   { name: "C", icon: <FaCode />, color: "#A8B9CC" },
   { name: "Python", icon: <SiPython />, color: "#3776AB" },
-  { name: "JavaScript", icon: <SiJavascript />, color: "#F7DF1E" },
-
   { name: "DSA", icon: <FaBrain />, color: "#6366F1" },
-  { name: "OOP", icon: <FaBrain />, color: "#8B5CF6" },
   { name: "Problem Solving", icon: <FaBrain />, color: "#EC4899" },
-
-  { name: "HTML", icon: <SiHtml5 />, color: "#E34F26" },
-  { name: "CSS", icon: <SiCss3 />, color: "#1572B6" },
-  { name: "React", icon: <SiReact />, color: "#61DAFB" },
-
   { name: "Git", icon: <SiGit />, color: "#F05032" },
   { name: "VS Code", icon: <SiVisualstudiocode />, color: "#007ACC" },
 ];

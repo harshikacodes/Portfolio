@@ -13,14 +13,7 @@ export default function About() {
         <h2 className="title mb-6">About Me</h2>
 
         <p className="text-secondary leading-relaxed text-lg">
-          I’m a learner passionate about building real projects and improving my
-          problem-solving skills.
-          <br /><br />
-          Right now, I’m exploring Java, DSA, C, and Python to strengthen my
-          foundation as a developer.
-          <br /><br />
-          I enjoy creating clean, simple experiences and I’m motivated to grow
-          into a strong, confident engineer.
+          I work as a freelance developer, helping clients turn ideas into simple, usable web experiences. <br />I focus on clean design, responsive layouts, and maintainable code.
         </p>
       </motion.div>
     </section>
