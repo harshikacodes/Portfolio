@@ -21,7 +21,13 @@ function Hero() {
       </div>
 
       {/* right img */}
-      <div></div>
+      <div className="w-1/2 flex justify-center items-center">
+        <img 
+          src="../../images/my-img.png" 
+          alt="Harshika" 
+          className="w-120 h-120 object-cover"
+        />
+      </div>
     </section>
   );
 }
