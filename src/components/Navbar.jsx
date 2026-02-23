@@ -4,7 +4,7 @@ function Navbar() {
 
   return (
     <nav className="bg-[#111827]">
-      <div className="flex items-center justify-between px-10 py-4 relative">
+      <div className="flex items-center justify-between px-10 py-6 relative">
         {/* left */}
         <div>
           <h1 className="text-lg font-bold leading-tight">
