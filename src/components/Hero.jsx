@@ -22,11 +22,17 @@ function Hero() {
 
       {/* right img */}
       <div className="w-1/2 flex justify-center items-center">
-        <img 
-          src="../../images/my-img.png" 
-          alt="Harshika" 
-          className="w-120 h-120 object-cover"
-        />
+        <div className="relative w-96 h-96 flex justify-center items-center">
+          {/* hexagon */}
+          <div className="absolute w-full h-full bg-[#10B981] clip-hexagon">
+            <img 
+              src="../../images/my-img.png" 
+              alt="Harshika" 
+              className="w-120 h-120 object-cover"
+            />
+          </div>
+          <div className="absolute bottom-0 w-72 h-20 bg-[#10B981] blur-3xl opacity-80 rounded-full"></div>
+        </div>
       </div>
     </section>
   );
